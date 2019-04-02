@@ -1,0 +1,30 @@
+body{
+    margin: 0
+}
+
+div.navbar{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+    a.navbar-brand{
+        img.logo{
+            height:2rem;
+            margin: 1rem;
+        }
+    }
+
+    div.link-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        a{
+            color: black;
+            text-decoration: none;
+            margin: 1rem;
+        }
+    }
+
+}
+

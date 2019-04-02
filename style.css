@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+div.navbar {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+div.navbar a.navbar-brand img.logo {
+  height: 2rem;
+  margin: 1rem;
+}
+div.navbar div.link-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.navbar div.link-container a {
+  color: black;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
