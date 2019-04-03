@@ -1,12 +1,21 @@
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 0.65rem
+    }
+}
+
 body{
     margin: 0
 }
 
 div.navbar{
     background-color:#FFFFFF;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
     a.navbar-brand{
         img.logo{
@@ -28,3 +37,87 @@ div.navbar{
 
 }
 
+div.home-page{
+    background-color: gray;
+
+    div.container{
+        max-width: 90%;
+        height: 100vh;
+        // height: calc(100vh - 4rem);
+        margin: 0 auto 0 auto;
+        display: flex;
+        align-items: center;
+
+        .text-container{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            background-color: yellow;
+            margin: 2rem;
+            height: 200px;
+            width: 400px;
+        }
+    }
+}
+
+div.about-page{
+    background-color: green;
+
+    .title{
+        margin: 0;
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    div.container{
+        // display: flex;
+        max-width: 90%;
+        height: 100vh;
+        margin: 0 auto 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .quote{
+            text-align: center;
+        }
+
+        p{
+            margin: none;
+        }
+    
+    }
+}
+
+div.menu-page{
+    background-color: lightblue;
+
+    div.container{
+        max-width: 90%;
+        margin: 0 auto 0 auto;
+        height: 100vh;
+
+        .title{
+            margin: 0;
+            text-align: center;
+            padding-top: 5rem;
+        }
+    }
+}
+
+div.locations-page{
+    background-color: darkblue;
+    color: white;
+
+    div.container{
+        max-width: 90%;
+        margin: 0 auto 0 auto;
+        height: 100vh;
+
+        .title{
+            margin: 0;
+            padding-top: 5rem;
+            text-align: center;
+        }
+    }
+}
