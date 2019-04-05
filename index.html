@@ -16,7 +16,7 @@
             <a class="navbar-brand" href="#">
                 <img id="logo" src="./assets/logo.png">
             </a>
-            <span id="logo-text" class="d-flex">THE Tea Store</span>
+            <span id="logo-text" class="d-flex mr-auto">THE Tea Store</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,34 +48,79 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <div id="drink-carousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#drink-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#drink-carousel" data-slide-to="1"></li>
-                            <li data-target="#drink-carousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img id="carousel-img" src="./assets/multiple-drinks3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img id="carousel-img" src="./assets/drink3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img id="carousel-img" src="./assets/multiple-drinks2.jpg" class="d-block w-100" alt="...">
-                            </div>
+                <div id="drink-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#drink-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#drink-carousel" data-slide-to="1"></li>
+                        <li data-target="#drink-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img id="carousel-img" src="./assets/multiple-drinks3.jpg" class="d-block w-100" alt="...">
                         </div>
-                        <a class="carousel-control-prev" href="#drink-carousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#drink-carousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> 
+                        <div class="carousel-item">
+                        <img id="carousel-img" src="./assets/drink3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img id="carousel-img" src="./assets/multiple-drinks2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#drink-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#drink-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div> 
+                <p id="landing-page-text">Delivering consistent quality and genuine customer experience<br><span id="catch-phrase">one customer and one cup at a time.</span></p>
+                <button id="view-drinks-btn" class="btn btn-primary">View Menu</button>
+            </div>            
+            <div class="row" id="mission-statement-row">
+                <div class="col-12 col-md-7 d-flex mx-auto">
+                    <div class="my-auto d-flex featurette-dividers py-md-5">
+                        <p>
+                            <span class="d-flex mb-3 justify-content-center section-title">Our Mission:</span>
+                            We are <strong>dedicated</strong> to delivering consistent <span class="key-word">quality</span>
+                            and genuine customer <span class="key-word">experience</span> “one customer and one cup at a time” and to providing the
+                             <span class="key-word">“Pot of Cha experience”</span> through our
+                            innovative approach of rediscovering the diversity of handcrafted teas and tradition of teas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row parallax-drinks"></div>
+            <div class="row" id="about-us-row">
+                <div class="col-12 col-md-7 d-flex mx-auto">
+                    <div class="my-auto d-flex featurette-dividers py-md-5">
+                        <p>
+                            <span style="font-size: 1.5em;" class="d-flex mb-3 justify-content-center section-title">About Us:</span>
+                            Pot of Cha means <strong>Pot of “Tea”</strong> in Chinese.  We are passionate about bringing tea leaves directly from our growers from Nantou,
+                            a province in central Taiwan and jasmine green tea leaves from Vietnam.  With quality tea leaves, we blend them into unique
+                            and delicious signature beverages.  Pot of Cha brewing method involves high quality tea leaves, clean water, proper tea containers,
+                            and the right temperature for each of our premium tea. Even before brewing, the tea process (from growth to drying tea leaves) is
+                            also a key component in producing quality teas.  During the process of roasting the tea leaves, we closely monitor the temperature
+                            and the cooking time to ensure natural fragrant taste of each type of tea leaves.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="drink-display-row">
+                <div class="col-12 col-md-4 m-md-auto my-3">
+                    <img class="drink-display" src="./assets/ingredient1.jpg" alt="...">
+                </div>
+                <div class="col-12 col-md-4 m-md-auto my-3">
+                    <img class="drink-display" src="./assets/triple-drink.jpg" alt="...">
+                </div>
+                <div class="col-12 col-md-4 m-md-auto my-3">
+                    <img class="drink-display" src="./assets/ingredient2.jpg" alt="...">
+                </div>
+            </div>
+            <div id="footer" class="row">
+                <div class="col-md-7 d-flex mx-auto">
+                    <p id="footer-message" class="d-flex mx-auto mt-5">Copyright 2019 © By www.potofcha.com, All Rights Reserved.</p>
+                </div>                
             </div>
         </div>
     </body>
