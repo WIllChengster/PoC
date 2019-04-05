@@ -57,6 +57,16 @@ body{
 .drink-display{
     object-fit: contain;
     height: 35vh;
+    transition: all 2.5s;
+}
+.carousel-img{
+    object-fit: cover;
+    height: 90vh;
+    transition: all 2.5s;
+    /* opacity: 0.6; */
+}
+.no-opacity {
+	opacity: 0;
 }
 
 /*Custom CSS IDs*/
@@ -66,11 +76,6 @@ body{
 #drink-carousel{
     height: 90vh;
     background-color: black;
-}
-#carousel-img{
-    object-fit: cover;
-    height: 90vh;
-    opacity: 0.6;
 }
 #logo-text{
     color: #5B5B5C;
@@ -106,6 +111,7 @@ body{
     border-color: red;
     color: white;
     font-size: 1.2em;
+    transition: all 2.5s;
 }
 #view-drinks-btn:focus{
     box-shadow: none;
@@ -119,12 +125,14 @@ body{
     margin-left: -36vw;
     top: 40%;
     font-size: 1.5em;
+    transition: all 2.5s;
 }
 #catch-phrase{
     font-style: italic;
     font-size: 1rem;
     font-weight: normal;
     text-align: center;
+    transition: all 2.5s;
 }
 #drink-display-row{
     width: 100vw;

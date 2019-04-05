@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Pot Of Cha</title>
+        <link rel="icon" href="./assets/icon.png">        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
@@ -56,13 +58,13 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img id="carousel-img" src="./assets/multiple-drinks3.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/multiple-drinks3.jpg" class="d-block w-100 carousel-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img id="carousel-img" src="./assets/drink3.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/drink3.jpg" class="d-block w-100 carousel-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img id="carousel-img" src="./assets/multiple-drinks2.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/multiple-drinks2.jpg" class="d-block w-100 carousel-img" alt="...">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#drink-carousel" role="button" data-slide="prev">
@@ -74,8 +76,11 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div> 
-                <p id="landing-page-text">Delivering consistent quality and genuine customer experience<br><span id="catch-phrase">one customer and one cup at a time.</span></p>
-                <button id="view-drinks-btn" class="btn btn-primary">View Menu</button>
+                <p id="landing-page-text" class="no-opacity">
+                    Delivering consistent quality and genuine customer experience<br>
+                    <span id="catch-phrase" class="no-opacity">one customer and one cup at a time.</span>
+                </p>
+                <button id="view-drinks-btn" class="btn btn-primary no-opacity">View Menu</button>
             </div>            
             <div class="row" id="mission-statement-row">
                 <div class="col-12 col-md-7 d-flex mx-auto">
@@ -97,8 +102,8 @@
                         <p>
                             <span style="font-size: 1.5em;" class="d-flex mb-3 justify-content-center section-title">About Us:</span>
                             Pot of Cha means <strong>Pot of “Tea”</strong> in Chinese.  We are passionate about bringing tea leaves directly from our growers from Nantou,
-                            a province in central Taiwan and jasmine green tea leaves from Vietnam.  With quality tea leaves, we blend them into unique
-                            and delicious signature beverages.  Pot of Cha brewing method involves high quality tea leaves, clean water, proper tea containers,
+                            a province in central Taiwan and jasmine green tea leaves from Vietnam.  With quality tea leaves, we blend them into <span class="key-word">unique</span>
+                            and <span class="key-word">delicious</span> signature beverages.  Pot of Cha brewing method involves high quality tea leaves, clean water, proper tea containers,
                             and the right temperature for each of our premium tea. Even before brewing, the tea process (from growth to drying tea leaves) is
                             also a key component in producing quality teas.  During the process of roasting the tea leaves, we closely monitor the temperature
                             and the cooking time to ensure natural fragrant taste of each type of tea leaves.  
@@ -108,13 +113,13 @@
             </div>
             <div class="row" id="drink-display-row">
                 <div class="col-12 col-md-4 m-md-auto my-3">
-                    <img class="drink-display" src="./assets/ingredient1.jpg" alt="...">
+                    <img id="drink-display-1" class="drink-display no-opacity" src="./assets/ingredient1.jpg" alt="...">
                 </div>
                 <div class="col-12 col-md-4 m-md-auto my-3">
-                    <img class="drink-display" src="./assets/triple-drink.jpg" alt="...">
+                    <img id="drink-display-2" class="drink-display no-opacity" src="./assets/triple-drink.jpg" alt="...">
                 </div>
                 <div class="col-12 col-md-4 m-md-auto my-3">
-                    <img class="drink-display" src="./assets/ingredient2.jpg" alt="...">
+                    <img id="drink-display-3" class="drink-display no-opacity" src="./assets/ingredient2.jpg" alt="...">
                 </div>
             </div>
             <div id="footer" class="row">
