@@ -68,6 +68,9 @@ html{
     transition: all 2.5s;
     /* opacity: 0.6; */
 }
+.no-opacity{
+    opacity: 0;
+}
 
 /*Custom CSS IDs*/
 #logo{
