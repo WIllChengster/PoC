@@ -21,7 +21,7 @@ Complimenting Colors:
 
 /*Global Overloads*/
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /*Custom CSS Classes*/
@@ -82,20 +82,20 @@ body{
 }
 #mission-statement-row{
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     text-align: center;
     font-size: 1.2em;
 }
 #about-us-row{
     height: 95vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     font-size: 1.1em;
 }
 #footer{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     font-size: 0.8em;
     background-color: white;
     text-align: center;
@@ -135,7 +135,7 @@ body{
     transition: all 2.5s;
 }
 #drink-display-row{
-    width: 100vw;
+    width: 100%;
     text-align: center;
     overflow: hidden;
     margin-bottom: 5vh;
