@@ -23,6 +23,9 @@ Complimenting Colors:
 body{
     /* overflow-x: hidden; */
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*Custom CSS Classes*/
 .key-word{
